@@ -1,12 +1,12 @@
 import './App.css'
-import Header from './components/Header'
-import ItemList from './components/ItemList'
-import Footer from './components/Footer'
+import PageHeader from './components/layout/Header'
+import ItemList from './components/layout/ItemList'
+import Footer from './components/layout/Footer'
 
 function App() {
   return (
     <div>
-      <Header />
+      <PageHeader />
       <ItemList />
       <Footer />
     </div>
